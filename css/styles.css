@@ -1,3 +1,25 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
+}
+
+#walrus-reunion-showing {
+  display:none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
 }

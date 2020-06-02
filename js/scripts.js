@@ -1,6 +1,18 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".walrus-showing").show();
-    $(".walrus-hidden").hide();
+  $(".clickable").click(function() {
+    $("#walrus-showing").fadeToggle();
+    $("#walrus-hidden").fadeToggle();
   });
+
+   $(".clickable2").click(function() {
+    $("#walrus-friends-hidden").fadeToggle();
+    $("#walrus-reunion-showing").fadeToggle();
+   });
+ 
 });
+
+
+// $(document).ready(function() {
+  
+// });
+
